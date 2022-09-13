@@ -34,7 +34,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   +schema: trial
   Trial:
-    +materialized: view
+    +materialized: table
     stage:
       +materialized: view
       intermediate:
